@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define INF 10009
-#define LOOP3 for(k=0;k<n;k++) for(i=0;i<n;i++) for(j=0;j<n;j++)
-#define LOOP2 for(i=0;i<n;i++) for(j=0;j<n;j++)
 int dis[1000][1000],n,m;
 
 void initialize()
