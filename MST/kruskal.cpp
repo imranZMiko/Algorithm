@@ -1,3 +1,39 @@
+/*
+Edge based algorithm
+
+Add the edges one at a time, in increasing weight order
+
+The algorithm maintains A – a forest of trees. An edge is
+accepted it if connects vertices of distinct trees
+
+We need a data structure that maintains a partition, i.e.,a
+collection of disjoint sets
+
+Keep a collection of sets S1, S2, .., Sk,
+Each Si is a set, e,g, S1={v1, v2, v8}.
+
+Three operations
+Make-Set(x)-creates a new set whose only member is x.
+
+Union(x, y) –unites the sets that contain x and y, say, Sx and Sy,
+into a new set that is the union of the two sets.
+
+Find-Set(x)-returns a pointer to the representative of the set
+containing x.
+
+
+MST-Kruskal(G,w)
+A ← ∅
+for each vertex v ∈ V[G] do
+	Make-Set(v)
+sort the edges of E by non-decreasing weight w
+for each edge (u,v) ∈ E, in order by non-decreasing weight do
+	if Find-Set(u) ≠ Find-Set(v) then
+		A ← A ∪ {(u,v)}
+		Union(u,v)
+return A
+*/
+
 // C++ program for Kruskal's algorithm
 // to find Minimum Spanning Tree of a
 // given connected, undirected and weighted

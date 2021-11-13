@@ -1,3 +1,18 @@
+/*
+Dijkstra(G,w,s)
+	for each v ∈ V
+		do d[v] := inf
+	d[s] := 0
+	S := empty set
+	Q := V
+	while Q != empty set
+		do u := extract_min(Q)
+		S := S U {u}
+		for each v ∈ Adj[u]
+			do if d[v] > d[u] + w(u,v)
+				then d[v] := d[u] + w(u,v)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 struct node

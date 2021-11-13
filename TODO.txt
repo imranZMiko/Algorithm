@@ -1,0 +1,15 @@
+TODO
+
+#Bridge and AP er case e root handle kora lagbe, have to see from our code
+#BCC generate korar pscode and BCC te ase kinda check kora
+#Have to watch videos for Greedy, Div & Conc, Alg types, recursion, graph applications
+#Watch flow application and last video
+
+Finished 
+#SCC
+#TOPO
+#AP (aro add kora lagbe)
+#Bridge (aro add kora lagbe)
+#Greedy er 3ta
+#Euler circuit Euler path
+#Flow er 2ta algo

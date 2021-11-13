@@ -1,3 +1,30 @@
+/*
+Select a vertex to be a tree-node
+while (there are non-tree vertices) {
+	if there is no edge connecting a tree node with a non-tree node
+		return “no spanning tree”
+	select an edge of minimum weight between a tree node and a non-tree node
+	add the selected edge and its new vertex to the tree
+}
+return tree
+
+MST-Prim(G,w,r)
+	for each u ∈ Q
+		key[u] ← ∞
+	key[r] ← 0
+	// r is the first tree node, let r=1
+	π[r] ← NIL
+	Q.insert((key[r], r))
+	while Q ≠ ∅ do
+		u ← Q.ExtractMin()
+		make u part of T
+		for each v ∈ Adj[u] do
+			if v !∈ T and w(u,v) < key[v] then
+			π[v] ← u
+			key[v] ← w(u,v)
+		Q.insert((key[v], v));
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

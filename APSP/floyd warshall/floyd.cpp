@@ -1,3 +1,13 @@
+/*
+Floyd-Warshall(W[1..n][1..n])
+D ← W
+for k ← 1 to n do
+	for i ← 1 to n do
+		for j ← 1 to n do
+			if D[i][k] + D[k][j] < D[i][j] then
+			D[i][j] ← D[i][k] + D[k][j]
+return D
+*/
 #include<bits/stdc++.h>
 using namespace std;
 #define INF 10009

@@ -1,3 +1,7 @@
+/*
+Give an O(V, E)-time algorithm to compute the component graph of a directed graph G = (V, E). Your code should output each SCC with component no and the graph using component no as vertices. See the following input/ouput for clarification. Bonus: Make sure that there is at most one edge between two vertices in the component graph your algorithm produces.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int visited[10000],visited2[10000],numberofscc=0;
