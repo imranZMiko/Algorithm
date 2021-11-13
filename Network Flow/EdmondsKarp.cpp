@@ -1,5 +1,5 @@
 /*
-Ford-Fulkerson(G,s,t)
+Edmonds-Karp(G,s,t)
 	for each edge (u,v)∈G.E do
 		f(u,v) = f(v,u) = 0
 	while ∃ path p from s to t in residual network Gf do (FIND PATH USING BFS)

@@ -19,9 +19,12 @@ DFS_Visit(v){
 
 	for each w ∈ Adj[v]{
 		if(color[w] == WHITE){
-			prev[w]=u;
+			prev[w]=v;
+			child++;
 			DFS_Visit(w);
-			if low[w] >= d[v]
+			if v is the root and child > 1
+				record that vertex v is an articulation
+			if low[w] >= d[v] and v is not the root
 				record that vertex v is an articulation
 			if (low[w] < low[v]) 
 				low[v] := low[w];
