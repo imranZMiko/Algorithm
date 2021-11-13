@@ -1,3 +1,7 @@
+/*
+Write a code to find the Biconnected Components of a given undirected graph. Print all BCCs as output.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define WHITE 0

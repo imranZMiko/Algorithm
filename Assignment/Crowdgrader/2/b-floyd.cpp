@@ -1,3 +1,42 @@
+/*
+Given an undirected weighted graph find its all pair shortest path cost. The graph can have multi-edge.
+
+Input
+First line: N(0<N≤100), number of nodes.
+
+Second line: M(0<M≤10000), number of edges.
+
+Next M lines, each: UVW(0≤U,V<N,0<W≤1000), defines an edge between U and V with weight W.
+
+Output
+All Pair shortest path in increasing order of nodes. If there is no path, print “No Path”. See sample for clarification.
+
+Sample Input
+6  
+5
+1 3 2
+1 2 5
+0 1 3
+3 2 1
+2 5 10
+Sample Output
+0 to 1: 3
+0 to 2: 6
+0 to 3: 5
+0 to 4: No Path
+0 to 5: 16
+1 to 2: 3
+1 to 3: 2
+1 to 4: No Path
+1 to 5: 13
+2 to 3: 1
+2 to 4: No Path
+2 to 5: 10
+3 to 4: No Path
+3 to 5: 11
+4 to 5: No Path
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define INF 10009

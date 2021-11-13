@@ -1,3 +1,24 @@
+/*
+Given two integer sequences A and B, find the longest common increasing subsequence between A and B.
+
+Input
+First line: NandM(0<N,M≤100), length of A and B correspondingly. Second line: N integers denoting A. Each of these integers will be between -1000 to 1000. Third line: M integers denoting B. Each of these integers will be between -1000 to 1000.
+
+Output
+Output the length of longest common increasing subsequence of A and B. See sample for clarification.
+
+Sample
+Input
+-------
+7 6
+1 2 3 1 2 3 1
+1 3 2 3 1 5
+
+Output
+--------
+3
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

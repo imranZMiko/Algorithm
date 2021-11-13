@@ -1,3 +1,32 @@
+/*
+Given a directed acyclic graph, find number of different paths between each pair of nodes in the graph.
+
+Input
+First line: N(0<N≤100), number of nodes. Second line: M(0<M≤1000), number of edges. Next M lines, each: UV(0≤U,V<N), defines an edge from U to V.
+
+Output
+Output a line for each pair of nodes U,V indicating number of paths from U to V. See sample for clarification.
+
+Sample
+Input
+-----
+3
+4
+0 1
+0 2
+2 1
+0 2
+
+Output
+------
+Number of paths from 0 to 1: 3
+Number of paths from 0 to 2: 2
+Number of paths from 1 to 0: 0
+Number of paths from 1 to 2: 0
+Number of paths from 2 to 0: 0
+Number of paths from 2 to 1: 1
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

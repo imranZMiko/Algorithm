@@ -1,3 +1,33 @@
+/*
+Given a directed acyclic graph (DAG) find a valid topological order.
+
+Input
+First line: N(0<N≤105), number of nodes. Second line: M(0<M≤3×105), number of edges. Next M lines, each: UV(0≤U,V<N), defines an edge from U to V.
+
+Output
+Output any valid topological order. See sample for clarification.
+
+Sample
+Input
+-----
+6
+5
+1 3
+1 2
+0 1
+3 4
+2 5
+
+Output
+------
+0
+1
+2
+5
+3
+4
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

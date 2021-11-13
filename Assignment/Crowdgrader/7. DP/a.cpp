@@ -1,3 +1,32 @@
+/*
+You are given two strings A and B. You need to find the longest common substring of A and B.
+
+Input
+First line: two strings A and B. Length of A, B will be between 1 and 100. A and B will only contain small English letters.
+
+Output
+The length of the longest common substring. See sample for clarification.
+
+Sample
+Input 1
+-------
+bangladesh
+english
+
+Output 1
+--------
+3
+
+Input 2
+-------
+small
+big
+
+Output 2
+--------
+0
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

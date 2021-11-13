@@ -1,3 +1,7 @@
+/*
+Write a code to find the Bridges in a given undirected graph. Print all the bridges as output.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define WHITE 0

@@ -1,3 +1,7 @@
+/*
+Write a code to find the Articulation Points in a given undirected graph. Print all the APs as output.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define WHITE 0

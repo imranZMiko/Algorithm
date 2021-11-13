@@ -1,3 +1,21 @@
+/*
+You are given a 2D grid. From each cell you can move to 4 directions (left, right, up, down). Each cell in the grid has a color (R, G or B). You are not allowed to step into the same colored cell consecutively. You have to find the shortest path from (0, 0) to (N-1, M-1) where N is the number of rows and M is the number of columns in the grid. The input will contain N and M characters containing R, G or B, which indicates the color of the corresponding cell in the grid. Any valid shortest path will do.
+
+You need to submit a single cpp file with the solution of this problem. Submit as much as you could do.
+
+Sample Input
+
+3 4
+RRGR
+BBBG
+GRRB
+
+Sample Output
+
+Shortest path length = 9
+Shortest path = (0, 0) -> (1, 0) -> (2, 0) -> (2, 1) -> (1, 1) -> (0, 1) -> (0, 2) -> (0, 3) -> (1, 3) -> (2, 3)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

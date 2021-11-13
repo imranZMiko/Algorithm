@@ -1,4 +1,30 @@
+/*
+Given an undirected weighted graph, find it's second best minimum spanning tree. The graph is guaranteed to be connected.
 
+The second best MST of a graph, is the spanning tree which has minimum cost, but differs with the best MST by at least a single edge. It's possible that the total cost of the best MST and second best MST is equal
+
+Input
+First line: N(0<N≤200), number of nodes. Second line: M(0<M≤10000), number of edges. Next M lines, each: UVW(0≤U,V<N), defines an edge between U and V with weight W.
+
+Output
+Output cost of the second best MST. If there is no second best MST, print “No Second Best MST”. See sample for clarification
+
+Sample
+Input
+-----
+6
+6
+1 3 2
+1 2 5
+0 1 3
+3 2 1
+3 4 50
+2 5 10
+
+Output
+------
+69
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #define WHITE 0

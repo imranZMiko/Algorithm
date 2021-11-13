@@ -1,3 +1,31 @@
+/*
+Given an undirected graph find all of its articulation points.
+
+Input
+First line: N(0<N≤105), number of nodes. Second line: M(0<M≤3×105), number of edges. Next M lines, each: UV(0≤U,V<N), defines an edge between U and V.
+
+Output
+Output the articulation points in a line in increasing order. See sample for clarification
+
+Sample
+Input
+-----
+6
+6
+1 3
+1 2
+2 3
+0 1
+3 4
+5 0
+
+Output
+------
+0
+1
+3
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 vector<int> adjacent[10000],points;

@@ -1,3 +1,42 @@
+/*
+Given an directed weighted graph find if it has a negative cycle.
+
+Input
+First line: N(0<N≤100), number of nodes. Second line: M(0<M≤10000), number of edges. Next M lines, each: UVW(0≤U,V<N,−1000≤W≤1000), defines an edge from U to V with weight W.
+
+Output
+Output Yes/No. See sample for clarification
+
+Sample 1
+Input
+-----
+6
+5
+1 3 2
+1 2 5
+0 1 3
+3 2 1
+2 5 10
+
+Output
+------
+No
+Sample 2
+Input
+-----
+6
+5
+1 3 2
+2 1 -5
+0 1 3
+3 2 1
+2 5 10
+
+Output
+------
+Yes
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define INF 1000000000

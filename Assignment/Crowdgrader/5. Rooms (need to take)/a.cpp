@@ -1,3 +1,28 @@
+/*
+You are given N activities. Each activity has a start time and a finish time. You need a classroom to hold each activity. Two activities can't be scheduled in the same classroom if they overlap. What is the minimum number of classrooms you will need to hold all the activities?
+
+Input
+First line: N(0<N≤105), number of activities. Next N lines, each: LR(0≤L<R<109), where L is the starting time and R is the finishing time of ith activity.
+
+Output
+Output the minimum number of classrooms you will need. See sample for clarification.
+
+Sample
+Input
+-----
+6
+0 100
+1 10
+10 20
+5 15
+17 25
+21 30
+
+Output
+------
+3
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

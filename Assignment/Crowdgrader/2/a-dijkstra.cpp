@@ -1,3 +1,29 @@
+/*
+Given an undirected weighted graph print the shortest path of node 1 from the node 0. If there are multiple shortest paths, print any one of them.
+
+Input
+First line: N(0<N≤100000), number of nodes.
+
+Second line: M(0<M≤300000), number of edges.
+
+Next M lines, each: UVW(0≤U,V<N,0<W<109), defines an edge between U and V with weight W.
+
+Output
+Shortest path of node 1. If node 1 is not reachable, print “Not Reachable”. See sample for clarification
+
+Sample Input
+7
+6
+4 3 2
+4 2 5
+0 4 3
+3 2 1 
+3 6 50 
+2 1 10 
+Sample Output
+0 4 3 2 1
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 struct node

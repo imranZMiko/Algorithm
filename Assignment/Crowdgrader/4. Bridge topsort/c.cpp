@@ -1,3 +1,29 @@
+/*
+Given an undirected graph find the minimum number of edges that you need add so that the graph doesn't contain any bridge.
+
+Input
+First line: N(0<N≤105), number of nodes. Second line: M(0<M≤3×105), number of edges. Next M lines, each: UV(0≤U,V<N), defines an edge between U and V.
+
+Output
+Minimum required edges. See sample for clarification
+
+Sample
+Input
+-----
+7
+7
+1 3
+1 2
+2 3
+0 1
+3 4
+5 0
+2 6
+Output
+------
+2
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
