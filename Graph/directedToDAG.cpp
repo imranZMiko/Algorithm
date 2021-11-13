@@ -1,0 +1,5 @@
+/*
+Find the SCCs
+Iterate through each edge and if it is an edge between two SCCs then add it to the adj list
+Done
+*/
